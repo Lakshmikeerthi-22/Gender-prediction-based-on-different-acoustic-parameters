@@ -35,6 +35,18 @@ analyzed frequency range of 0hz-280hz (human vocal range).
 ## Dataset :
 https://drive.google.com/file/d/1PA_RAM3_c1rd5HY4g9MOoYYys7zlwLn5/view?usp=sharing
 
+## Steps to create the model:
+
+* **Collect the dataset :** We need a dataset with a large number of audio recordings of male and female speakers. The dataset should include different acoustic parameters such as pitch, formants, duration, intensity, and others.
+
+* **Preprocess the data :** We need to preprocess the dataset by removing any missing or irrelevant data. We can also perform feature scaling or normalization to ensure that all input features are on the same scale.
+
+* **Split the data :** Split the dataset into training and testing sets. The training set will be used to train the model, while the testing set will be used to evaluate the model's performance.
+
+* **Train the model :** Use the training data to train a model. This involves fitting the model to the data and adjusting the model's hyperparameters to optimize its performance.
+
+* **Evaluate the model :** Evaluate the model's performance using the testing data. We can use metrics such as accuracy, confusion matrix, classification report, precision, recall, and F1-score to assess the model's performance.
+
 ## Result :
 
 ![image](https://user-images.githubusercontent.com/94287823/224467878-29eb6101-17ea-4434-b621-71313cd4b0f5.png)
